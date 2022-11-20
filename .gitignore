@@ -1,0 +1,23 @@
+#node modules
+node_modules
+package-lock.json # include if you are using npm - don't use both yarn and npm
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+# Xcode
+ios/Pods/
+ios/xcuserdata/
+ios/project.xcworkspace/
+ios/DerivedData/
+.DS_Store
+
+# Android/IntelliJ
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# Bundle artifact
+*.jsbundle
